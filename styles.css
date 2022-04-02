@@ -1,0 +1,160 @@
+body {
+  background: #312b2a;
+  color: #f07625;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgba(252, 152, 2, 0.897);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #f8990b98;
+  margin: 0;
+}
+
+.card {
+  border: 0.5px;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.border-green {
+  background: #8ea2b4;
+}
+
+.border-yelow {
+  background: #988830;
+}
+
+.text {
+  color: #e5d293;
+}
+
+.text1 {
+  color: rgba(71, 61, 139, 0.781);
+}
+
+a {
+  color: #292a2b;
+  text-decoration: none;
+  box-shadow: 0px 0px 15px #5f5a57;
+  background-color: #5f5a5794;
+  border-radius: 7px;
+  margin: auto;
+  padding: 0px 15px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+a:hover {
+  color: #f0762594;
+  box-shadow: 0px 0px 15px #f07625;
+  background-color: #f0762569;
+  border-radius: 7px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #37417c;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  margin-bottom: 5px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #f076258e;
+  color: #f07625;
+  padding: 10px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn1 {
+  background: #312b2a;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #f07625;
+  color: #f07625;
+}
+@media (max-width: 550px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 550px) {
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
